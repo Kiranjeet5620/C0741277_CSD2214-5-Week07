@@ -17,5 +17,16 @@ var bear = {
     quote: "",
     maxOffspring: 3,
     noisy: true,
-    deadly: trues,
-}
+    deadly: true,
+};
+bear = JSON.parse(JSON.stringify(bird));
+bear.genus = "ursus";
+bear;
+bird;
+
+var cities = [
+    'Brampton',
+    'Toronto',
+    'Missisauga',
+    'North York',
+];
